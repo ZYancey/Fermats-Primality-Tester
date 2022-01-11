@@ -1,2 +1,3 @@
-# Fermats-Primality-Tester
-CS312 - Fermats Primality Tester
+# Fermats Primality Tester
+
+Lab 1 - CS312 - Fermats Primality Tester
