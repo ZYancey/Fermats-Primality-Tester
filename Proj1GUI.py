@@ -96,7 +96,7 @@ class Proj1GUI(QWidget):
 
 			# Output results from Fermat and compute the appropriate error bound, if necessary
 			if fermat == 'prime':
-				prob = fprobability(k)
+				prob = f_probability(k)
 				self.outputF.setText(
 					'<i>Fermat Result:</i> {:d} <b>is prime</b> with probability {:5.15f}'.format(n, prob))
 			else:  # Should be 'composite'
@@ -104,7 +104,7 @@ class Proj1GUI(QWidget):
 
 			# Output results from Miller-Rabin and compute the appropriate error bound, if necessary
 			if mr == 'prime':
-				prob = mprobability(k)
+				prob = m_probability(k)
 				self.outputMR.setText(
 					'<i>MR Result:</i> {:d} <b>is prime</b> with probability {:5.15f}'.format(n, prob))
 			else:  # Should be 'composite'
